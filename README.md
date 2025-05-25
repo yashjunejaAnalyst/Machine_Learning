@@ -2,11 +2,12 @@
 INN GROUP OF HOTELS
 
 **Project Title:**
-"Predictive Modeling of Hotel Booking Cancellations Using Machine Learning"
+
+Predictive Modeling of Hotel Booking Cancellations Using Machine Learning.
 
 **Context:**
 
-A significant number of hotel bookings are called off due to cancellations or no-shows. The typical reasons for cancellations include change of plans, scheduling conflicts, etc. This is often made easier by the option to do so free of charge or preferably at a low cost which is beneficial to hotel guests but it is a less desirable and possibly revenue-diminishing factor for hotels to deal with. Such losses are particularly high on last-minute cancellations.
+A significant number of hotel bookings are called off due to cancellations or no-shows. The typical reasons for cancellations include change of plans, scheduling conflicts etc. This is often made easier by the option to do so free of charge or preferably at a low cost which is beneficial to hotel guests but it is a less desirable and possibly revenue-diminishing factor for hotels to deal with. Such losses are particularly high on last-minute cancellations.
 
 The new technologies involving online booking channels have dramatically changed customers’ booking possibilities and behavior. This adds a further dimension to the challenge of how hotels handle cancellations, which are no longer limited to traditional booking and guest characteristics.
 
@@ -22,7 +23,7 @@ To develop a machine learning model for INN Group of Hotels that accurately pred
 
 **Approach:**
 
-**Data Understanding & Preprocessing:**
+**Data Understanding & Preprocessing-**
 
 Loaded and explored the dataset containing booking details.
 
@@ -32,7 +33,7 @@ Converted categorical variables into appropriate numerical formats using encodin
 
 Checked for multicollinearity using Variance Inflation Factor (VIF) and removed insignificant features.
 
-**Exploratory Data Analysis (EDA):**
+**Exploratory Data Analysis (EDA)-**
 
 Analyzed booking trends across months, market segments, and meal plans.
 
@@ -40,19 +41,19 @@ Investigated the impact of features like lead time, special requests, and repeat
 
 Visualized key patterns using bar plots, histograms, and heatmaps.
 
-**Model Building:**
+**Model Building-**
 
 Implemented Logistic Regression and Decision Tree Classifier.
 
-Evaluated models using Confusion Matrix, Recall, Precision, Accuracy, and ROC-AUC scores.
+Evaluated models using Confusion Matrix, Recall, Precision, Accuracy and ROC-AUC scores.
 
 Applied pruning techniques to Decision Tree to reduce overfitting and enhance generalization.
 
-**Feature Importance:**
+**Feature Importance-**
 
 Identified key predictors of cancellations: lead time, average room price, number of special requests, and booking channel (online).
 
-**Model Selection:**
+**Model Selection-**
 
 Selected pre-pruned Decision Tree as the final model due to its interpretability and balance between recall and precision.
 
